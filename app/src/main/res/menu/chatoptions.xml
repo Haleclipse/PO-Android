@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/openPM"
+          android:title="@string/pm"
+          android:icon="@drawable/ic_action_mail"
+          android:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/findbattle"
+        android:title="@string/find_a_battle">
+    </item>
+    <item
+        android:id="@+id/idle"
+        android:checkable="true"
+        android:title="@string/idle">
+    </item>
+    <item
+        android:id="@+id/register"
+        android:title="@string/register">
+    </item>
+    <item
+        android:id="@+id/chat_disconnect"
+        android:title="@string/disconnect">
+    </item>
+    <item
+        android:id="@+id/preferences"
+        android:title="@string/tierSelection">
+    </item>
+    <item
+        android:id="@+id/changeName"
+        android:title="@string/change_name">
+    </item>
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings">
+     </item>
+    <item
+        android:id="@+id/loadteam"
+        android:title="@string/load_team">
+    </item>
+    <item
+        android:id="@+id/controlpanel"
+        android:title="Control Panel">
+    </item>
+</menu>

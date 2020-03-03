@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.podevs.android.poAndroid">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <application android:allowBackup="true" android:icon="@drawable/icon" android:label="@string/app_name" android:theme="@style/AppTheme" android:fullBackupOnly="true" android:fullBackupContent="@xml/my_backup_rules">
+        <activity
+            android:name="com.podevs.android.poAndroid.registry.RegistryActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@style/DarkAppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.podevs.android.poAndroid.battle.BattleActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+                android:name="com.podevs.android.poAndroid.teambuilder.ColorPickerActivity"
+                android:label="@string/app_name"
+                android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.podevs.android.poAndroid.teambuilder.TeambuilderActivity"
+            android:label="@string/teambuilder"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.podevs.android.poAndroid.chat.ChatActivity"
+            android:parentActivityName="com.podevs.android.poAndroid.registry.RegistryActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.podevs.android.poAndroid.pms.PrivateMessageActivity"
+            android:label="@string/private_messages"
+            android:launchMode="singleTask"
+            android:theme="@style/DarkAppTheme" >
+        </activity>
+        <activity
+                android:name="com.podevs.android.poAndroid.settings.SetPreferenceActivity"
+                android:label="@string/settings" >
+        </activity>
+        <activity android:name="com.podevs.android.poAndroid.teambuilder.EditPokemonActivity" android:configChanges="orientation|screenSize"/>
+
+        <service android:name="com.podevs.android.poAndroid.NetworkService" />
+        <service android:name="com.podevs.android.poAndroid.registry.RegistryConnectionService" />
+    </application>
+
+</manifest>

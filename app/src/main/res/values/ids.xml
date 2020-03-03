@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="position" type="id"/>
+    <item name="associated_pm" type="id"/>
+    <item name="networkService" type="id"/>
+    <item name="avatar" type="id"/>
+    <item name="poke" type="id"/>
+    <item name="fragment" type="id"/>
+
+</resources>

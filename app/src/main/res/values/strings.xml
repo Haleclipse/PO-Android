@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="empty" translatable="false"></string>
+    <string name="choosename">Trainer Name</string>
+    <string name="app_name">Pokémon Online</string>
+    <string name="connect">Connect!</string>
+    <string name="inputname">Trainer Name</string>
+    <string name="inputaddr">IP Address:Port</string>
+    <string name="chooseaddr">Server Address</string>
+    <string name="importteam">Import Team</string>
+    <string name="viewpokemon">View Pokémon</string>
+    <string name="tobattlescreen">Back to Battle Screen</string>
+    <string name="notinbattle">You are not currently in a battle!</string>
+    <string name="forfeit">Forfeit Current Battle</string>
+    <string name="ok">Okay</string>
+    <string name="cancel">Cancel</string>
+    <string name="no">No</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="change_name">Change Name</string>
+    <string name="suggest_draw">Suggest Draw</string>
+    <string name="return_to_chat">Return to Chat</string>
+    <string name="player_list">Player List</string>
+    <string name="channel_list">Channel List</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="accept_challenge">Accept Challenge from</string>
+    <string name="stat_attack">Attack</string>
+    <string name="stat_defense">Defense</string>
+    <string name="stat_spAttack">Sp. Att</string>
+    <string name="stat_spDefense">Sp. Def</string>
+    <string name="stat_speed">Speed</string>
+    <string name="stat_accuracy">Accuracy</string>
+    <string name="stat_evasion">Evasion</string>
+    <string name="stat_hp_short">HP</string>
+    <string name="stat_attack_short">Att</string>
+    <string name="stat_defense_short">Def</string>
+    <string name="stat_spAttack_short">SpA</string>
+    <string name="stat_spDefense_short">SpD</string>
+    <string name="stat_speed_short">Spe</string>
+    <string name="rearrange_team_description">You can rearrange your team by dragging your Pokémon before the battle.</string>
+    <string name="rearrange_team_title">Rearrange Your Team</string>
+    <string name="foes_team">Foe\'s Team:</string>
+    <string name="your_team">Your Team:</string>
+    <string name="done">Done</string>
+    <string name="find_a_battle">Find Battle</string>
+    <string name="cancel_find_battle">Cancel Find Battle</string>
+    <string name="enable_sounds">Pokémon Cries</string>
+    <string name="stop_watching">Stop Watching</string>
+    <string name="crash_toast_text">Pokémon Online has crashed! Please help by e-mailing the resulting crash report.</string>
+    <string name="serv_name">Server Name</string>
+    <string name="players">Players</string>
+    <string name="serv_addr">Server Address</string>
+    <string name="connecttoserver">Connect to a Server</string>
+    <string name="major_compat_break_warning">There will be important problems when communicating with the server due to the android client being outdated</string>
+    <string name="minor_compat_break_warning">There may be minor problems when communicating with the server due to the android client being outdated</string>
+    <string name="new_server_features_warning">The server has new features that are not accessible with this android version!</string>
+    <string name="send_message">Send message</string>
+    <string name="battle_opponent_team_poke_icon">opponent team poke icon</string>
+    <string name="struggle_attack">STRUGGLE</string>
+    <string name="info_box">Info Box</string>
+    <string name="hp_bar_description">hp bar</string>
+    <string name="gender_description">gender</string>
+    <string name="status_description">status</string>
+    <string name="sprite_description">sprite</string>
+    <string name="team_poke_icon">team poke icon</string>
+    <string name="no_netserv">Server connection failure</string>
+    <string name="private_messages">Private Messages</string>
+    <!-- <string name="player">Player</string> -->
+    <string name="closePM">Close PM</string>
+    <string name="ignorePlayer">Ignore Player</string>
+    <string name="closeBattle">Leave Battle</string>
+    <string name="tierSelection">Tier Selection</string>
+    <string name="idle">Idle</string>
+    <string name="register">Register your name</string>
+    <string name="teambuilder">Teambuilder</string>
+    <string name="primary_info">Primary Info</string>
+    <string name="trainer_name">Trainer Name</string>
+    <string name="color">Color</string>
+    <string name="team">Team</string>
+    <string name="team_tier">Team Tier</string>
+    <string name="edit_team">Edit Team</string>
+    <string name="optional">Optional</string>
+    <string name="trainerinfo">Trainer Information</string>
+    <string name="winningmessage">Winning Message</string>
+    <string name="losingmessage">Losing Message</string>
+    <string name="pokemon">Pokémon</string>
+    <string name="save_team_q">Do you want to save changes to the team?</string>
+    <string name="download_team">Download Team</string>
+    <string name="save">Save</string>
+    <string name="no_save">Do not save</string>
+    <string name="hiddenpower_choice">Hidden power type</string>
+    <string name="new_team">Reset team</string>
+    <string name="load_team">Load team</string>
+    <string name="save_team_as">Save team as</string>
+    <string name="delete_team">Delete team</string>
+    <string name="full_happiness">100% Happiness</string>
+    <string name="zmove">Z-Move</string>
+    <string name="ultraburst">Ultra Burst</string>
+    <string name="megavolve">Megaevolve</string>
+    <string name="shifttocenter">Shift to Center</string>
+    <string name="formes">Formes: </string>
+    <string name="settings">Settings</string>
+    <string name="shiny">Shiny</string>
+    <string name="happiness_short">Happy</string>
+    <string name="level_short">Lvl</string>
+    <string name="force_rated">Force Rated</string>
+    <string name="force_same_tier">Force Same Tier</string>
+    <string name="only_within_range">Only within range</string>
+    <string name="view_player_info">View Player Info</string>
+    <string name="challenge">Challenge</string>
+    <string name="pm">Private Message</string>
+    <string name="watch_battle">Watch battle against</string>
+    <string name="change_happiness">Change Happiness</string>
+    <string name="change_level">Change Level</string>
+    <string name="switch_place">Switch place</string>
+    <string name="hackmon_enabled">Hackmon Enabled</string>
+    <string name="hackmon_disabled">Hackmon Disabled</string>
+    <string name="manual_iv">Manual IV</string>
+    <string name="switch_places">Switch Places</string>
+    <string name="from_slot">From slot:</string>
+    <string name="to_slot">To slot:</string>
+    <string name="export_team">Export Team</string>
+    <string name="export_success">Export successful</string>
+    <string name="raw_link">Enter link of raw  text team:</string>
+    <string name="valid_link">Entire Valid Link.</string>
+
+    <string name="chat_title">Chat Settings</string>
+    <string name="chat_summary">Chat Settings</string>
+    <string name="flash_title">Flashing</string>
+    <string name="flash_summary">Toggle flashing</string>
+    <string name="flash_color_title">Flash Color</string>
+    <string name="flash_color_summary">Enter a valid hex color</string>
+    <string name="timestamp_chat_title">Time Stamp</string>
+    <string name="timestamp_chat_summary">Toggle time stamps in chat</string>
+    <string name="notifications_chat_title">Flash Pop up</string>
+    <string name="notifications_chat_summary">Toggle Flash Notifications</string>
+    <string name="pm_title">PM Options</string>
+    <string name="pm_summary">Private Message Options</string>
+    <string name="timestamp_pm_title">Time Stamp</string>
+    <string name="timestamp_pm_summary">Toggle time stamps</string>
+    <string name="notifications_pm_title">Notifications</string>
+    <string name="notifications_pm_summary">Toggle notifications</string>
+    <string name="volume_title">Volume</string>
+    <string name="volume_summary">Integer between 0 and 100</string>
+    <string name="poke_number_title">Pokemon\'s cry</string>
+    <string name="poke_number_summary">Number of the pokemon</string>
+    <string name="sound_notification_title">Cry Sound notification</string>
+    <string name="sound_notification_summary">Toggle cry sound notification</string>
+    <string name="misc_title">Miscellaneous</string>
+    <string name="crashlog_title">Save crash log</string>
+    <string name="crashlog_summary">Dump crash data to file</string>
+    <string name="copypaste_title">Copy and Paste</string>
+    <string name="copypaste_summary">May not function correctly on all devices</string>
+
+    <string name="IV">IV</string>
+
+    <string-array name="hp_array">
+        <item>Fighting</item>
+        <item>Flying</item>
+        <item>Poison</item>
+        <item>Ground</item>
+        <item>Rock</item>
+        <item>Bug</item>
+        <item>Ghost</item>
+        <item>Steel</item>
+        <item>Fire</item>
+        <item>Water</item>
+        <item>Grass</item>
+        <item>Electric</item>
+        <item>Psychic</item>
+        <item>Ice</item>
+        <item>Dragon</item>
+        <item>Dark</item>
+    </string-array>
+
+    <string-array name="modes_array">
+        <item>Singles</item>
+        <item>Doubles</item>
+        <item>Triples</item>
+    </string-array>
+
+    <string-array name="status_change_array">
+        <item> is paralyzed! It may be unable to move!</item>
+        <item> fell asleep!</item>
+        <item> was frozen solid!</item>
+        <item> was burned!</item>
+        <item> was poisoned!</item>
+        <item> was badly poisoned!</item>
+        <item> became confused!</item>
+    </string-array>
+
+    <string-array name="import_array">
+        <item>@string/importteam</item>
+        <item>@string/download_team</item>
+    </string-array>
+
+    <string-array name="import_file_array">
+        <item>From File</item>
+        <item>From File 2</item>
+    </string-array>
+
+    <string name="feel_confusion_status_message"> is confused!</string>
+    <string name="hurt_confusion_status_message">It hurt itself in its confusion!</string>
+    <string name="free_confusion_status_message"> snapped out of its confusion!</string>
+    <string name="prev_paralyzed_status_message"> is paralyzed! It can\'t move!</string>
+    <string name="prev_frozen_status_message"> is frozen solid!</string>
+    <string name="free_frozen_status_message"> thawed out!</string>
+    <string name="feel_asleep_status_message"> is fast asleep!</string>
+    <string name="free_asleep_status_message"> woke up!</string>
+    <string name="hurt_burn_status_message"> is hurt by its burn!</string>
+    <string name="hurt_poison_status_message"> is hurt by poison!</string>
+
+    <string name="end_hail_weather">The hail subsided!</string>
+    <string name="hurt_hail_weather"> is buffeted by the hail!</string>
+    <string name="continue_hail_weather">Hail continues to fall!</string>
+    <string name="end_sandstorm_weather">The sandstorm subsided!</string>
+    <string name="hurt_sandstorm_weather"> is buffeted by the sandstorm!</string>
+    <string name="continue_sandstorm_weather">The sandstorm rages!</string>
+    <string name="end_sunny_weather">The sunlight faded!</string>
+    <string name="continue_sunny_weather">The sunlight is strong!</string>
+    <string name="end_rain_weather">The rain stopped!</string>
+    <string name="continue_rain_weather">Rain continues to fall!</string>
+    <string name="end_heavysun_weather">The intense sunlight faded!</string>
+    <string name="continue_heavysun_weather">The intense sunlight continues to shine!</string>
+    <string name="end_heavyrain_weather">The heavy downpour stopped!</string>
+    <string name="continue_heavyrain_weather">The heavy downpour continues!</string>
+    <string name="end_delta_weather">The mysterious air current has dissipated!</string>
+    <string name="continue_delta_weather">A mysterious air current is protecting Flying-type Pokémon.</string>
+
+    <string name="no_effect_message">\nIt had no effect!</string>
+    <string name="super_effective_message">It\'s super effective!</string>
+
+    <string name="disconnected_no_timeout"> got disconnected!</string>
+    <string name="disconnected_timeout"> got disconnected! You can wait for their time to run out if you want the win.</string>
+    <string name="logged_back_in"> logged back in and is ready to resume the battle!</string>
+
+    <string name="asset_localization"></string>
+    <string name="localize_assets_title">Localize Names</string>
+    <string name="localize_assets_summary">Not all languages are supported</string>
+    <string name="language_settings">Language Settings</string>
+    <string name="not_very_effective_message">It\'s not very effective…</string>
+
+    <string name="electric_terrain_end">The electricity disappeared from the battlefield!</string>
+    <string name="grassy_terrain_end">The grass disappeared from the battlefield!</string>
+    <string name="misty_terrain_end">The mist disappeared from the battlefield!</string>
+    <string name="psychic_terrain_end">The weirdness disappeared from the battlefield!</string>
+</resources>

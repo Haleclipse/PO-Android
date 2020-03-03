@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.lifecycle:lifecycle-livedata:2.0.0@aar">
+    <CLASSES>
+      <root url="jar://D:/Program Files/Android/.gradle/caches/transforms-2/files-2.1/d8a9ab3e09260104be021ae200388573/lifecycle-livedata-2.0.0/jars/classes.jar!/" />
+      <root url="file://D:/Program Files/Android/.gradle/caches/transforms-2/files-2.1/d8a9ab3e09260104be021ae200388573/lifecycle-livedata-2.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/Program Files/Android/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata/2.0.0/740ce61935bd789380c01178bd8ce402402ebd2f/lifecycle-livedata-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

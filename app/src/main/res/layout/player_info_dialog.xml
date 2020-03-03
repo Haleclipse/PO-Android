@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/player_info_dialog"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:weightSum="1" >
+
+    <TextView
+        android:id="@+id/player_info_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/players"
+        android:textSize="15sp"
+        android:textStyle="bold" >
+    </TextView>
+    
+    <ListView 
+        android:id="@+id/player_info_tiers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/player_info">
+    </ListView>
+
+    <TextView
+        android:id="@+id/player_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/player_info_name"
+		android:text="@string/rearrange_team_description"
+        android:textSize="12sp" />
+
+    <TextView
+            android:id="@+id/chall_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/player_info"
+            android:textSize="12sp"/>
+
+</RelativeLayout>
